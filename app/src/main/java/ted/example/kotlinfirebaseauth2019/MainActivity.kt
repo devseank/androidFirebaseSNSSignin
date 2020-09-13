@@ -23,9 +23,9 @@ class MainActivity : AppCompatActivity() {
         //Init
         providers = listOf(
             AuthUI.IdpConfig.EmailBuilder().build(), //Email login
-            AuthUI.IdpConfig.FacebookBuilder().build(), //Email login
-            AuthUI.IdpConfig.GoogleBuilder().build(), //Email login
-            AuthUI.IdpConfig.PhoneBuilder().build() //Email login
+            AuthUI.IdpConfig.FacebookBuilder().build(), //Facebook login
+            AuthUI.IdpConfig.GoogleBuilder().build(), //Google login
+            AuthUI.IdpConfig.PhoneBuilder().build() //Phone login
 
         )
 
